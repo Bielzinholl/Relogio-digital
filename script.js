@@ -25,7 +25,7 @@ setInterval (() => {
     </div>
     <i class="fa-solid fa-cloud"></i>
 </div>`
-}else if(horaAtual < 12 && horaAtual > 18){
+}else if(horaAtual > 12 && horaAtual < 18){
     resultado.innerHTML = `   <div class="card bg-tarde">  
     <div class="date">
         <h1>${horaAtual}:${minuteAtual}</h1>
